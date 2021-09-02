@@ -3,3 +3,4 @@
 cd /d "%~dp0"
 
 start python saveHost.py
+ipconfig /flushdns
