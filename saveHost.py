@@ -13,13 +13,19 @@ from retry import retry
 import requests
 
 RAW_URL = [
+    "alive.github.com",
+    "live.github.com",
     "github.githubassets.com",
+    "central.github.com",
+    "desktop.githubusercontent.com",
+    "assets-cdn.github.com",
     "camo.githubusercontent.com",
     "github.map.fastly.net",
     "github.global.ssl.fastly.net",
     "gist.github.com",
     "github.io",
     "github.com",
+    "github.blog",
     "api.github.com",
     "raw.githubusercontent.com",
     "user-images.githubusercontent.com",
@@ -38,7 +44,7 @@ RAW_URL = [
     "github-production-repository-file-5c1aeb.s3.amazonaws.com",
     "githubstatus.com",
     "github.community",
-    "avatars.githubusercontent.com"]
+    "media.githubusercontent.com"]
 
 IPADDRESS_PREFIX = ".ipaddress.com"
 
